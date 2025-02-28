@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
+import Home from "./pages/Home";
 
 import Title from "./components/Title";
 import NavigationBar from "./components/NavigationBar";
@@ -17,6 +18,7 @@ function App() {
       {/* Navigation Bar Component */}
       <NavigationBar />
       <Routes>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/contact" element={<Contact />} />
