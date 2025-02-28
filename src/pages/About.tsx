@@ -3,7 +3,7 @@ import ImageCard from "../components/Image";
 export default function About() {
   return (
     <>
-      <h1>About Page</h1>
+      <h1>Pastor John Ximenez, Sr.</h1>
 
       <ImageCard />
 

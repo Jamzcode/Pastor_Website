@@ -3,7 +3,7 @@ import Button from "../components/Button";
 export default function Contact() {
   return (
     <>
-      <h1>Contact Us</h1>
+      <h1>Get In Contact</h1>
       <div>
         <h3>Name</h3>
         <input />

@@ -4,7 +4,7 @@ import Button from "../components/Button";
 export default function Tour() {
   return (
     <>
-      <h1>Tour Page</h1>
+      <h1>Mission Statement</h1>
 
       <ImageCard />
 
