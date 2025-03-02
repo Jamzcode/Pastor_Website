@@ -7,7 +7,8 @@ export default function NavigationBar() {
       <Link to="./about">About</Link>
       <Link to="./mission">Mission</Link>
       <Link to="./gallery">Gallery</Link>
-      <Link to="./contact">Contact Us</Link>
+      <Link to="./contact">Contact</Link>
+      <Link to="./get-in-touch">Get In Touch</Link>
     </nav>
   );
 }
