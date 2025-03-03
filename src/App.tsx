@@ -15,6 +15,7 @@ function App() {
   // TODO: make ImageCard dynamic for pictures throughout the website.
   // TODO: make a dynamic/interactive GalleryComponent.
   // TODO: create input form component for user data.
+  // TODO: make application MOBILE RESPONSIVE.
   
   
   return (

@@ -6,7 +6,7 @@ export default function Home() {
       {/* Section 1 
       -Title (Add picture, Add Video) x
       -Add title wording: I am crucified with Christ… Future impact x
-      -Add Button “Get Started”
+      -Add Button “Get Started”***
        */}
 
       <b>I am crucified with Christ...</b>
@@ -29,7 +29,6 @@ export default function Home() {
         <ImageCard />
       </div>
 
-      <button>GET STARTED</button>
     </>
   );
 }
