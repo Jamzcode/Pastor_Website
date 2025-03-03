@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import ImageCard from "../components/Image";
 
 export default function Contact() {
@@ -19,8 +17,7 @@ export default function Contact() {
       -Add “Get in touch” button to lead to gaining contact information of potential clients x
       */}
       
-      {/* Title */}
-      Contact Me
+      
       
       {/* Headshot */}
       <ImageCard />
@@ -35,13 +32,41 @@ export default function Contact() {
       <div>Pastor John Ximenez, Sr.</div>
       <p>Phone:(210) 705-****</p>
       <p>Email: jaxtenagra@gmail.com</p>
-      
-      
-      
-      {/* TODO: link button to GetInTouch page. */}
+
+      <>
+      {/* 
+      Section (8)
+        -Add title spot for title name (Sunday Sermons and more!)
+        -Add spot for Facebook link (Add clickable Icon)
+        -Add spot for Instagram link (Add clickable Icon)
+        -Add spot for TikTok link (Add clickable Icon)
+        -Add spot for YouTube link (Add clickable Icon)
+      */}
+
+
+      <h1>Send a Message!</h1>
+      {/* TODO: create input form component */}
       <div>
-        <Link to="../get-in-touch">Get in Touch</Link>
+        <h3>Name:</h3>
+        <input />
+
+        <h3>Email:</h3>
+        <input />
+
+        <h3>Phone:</h3>
+        <input />
+
+        <h3>Notes:</h3>
+        <input />
+
+        {/* TODO: create function for button to submit user info for processing.*/}
+        <button>Submit Info</button>
       </div>
+    </>
+      
+      
+      
+      
     </>
   );
 }

@@ -12,7 +12,6 @@ export default function Mission() {
       -No action Button x
       */}
 
-      <h1>Mission</h1>
 
       <ImageCard />
 

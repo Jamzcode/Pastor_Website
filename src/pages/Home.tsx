@@ -8,6 +8,7 @@ export default function Home() {
       -Add title wording: I am crucified with Christ… Future impact x
       -Add Button “Get Started”***
        */}
+  
 
       <b>I am crucified with Christ...</b>
 
@@ -28,7 +29,6 @@ export default function Home() {
         PuppetMania
         <ImageCard />
       </div>
-
     </>
   );
 }

@@ -18,7 +18,6 @@ function toggleNav() {
         <Link to="./mission">Mission</Link>
         <Link to="./gallery">Gallery</Link>
         <Link to="./contact">Contact</Link>
-        <Link to="./get-in-touch">Get In Touch</Link>
         <button onClick={toggleNav}>-</button>
       </nav>
     );

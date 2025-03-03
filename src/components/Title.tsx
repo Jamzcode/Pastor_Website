@@ -1,3 +1,28 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { useState } from "react";
+
 export default function Title() {
-  return <h1>Future Impact Preaching</h1>;
+  const location = useLocation();
+  const [title, setTitle] = useState("My Website");
+
+  useEffect(() => {
+    const titles: { [key: string]: string } = {
+      "/": "Pastor John Ximenez, Sr. | Puppet Mania | Future Impact",
+      "/about": "",
+      "/contact": "Contact Me",
+      "/mission": "Mission",
+      "/gallery": "Outreach",
+
+    };
+
+    const newTitle = titles[location.pathname];
+    setTitle(newTitle);
+  }, [location.pathname]);
+
+  return <h1 style={titleStyle}>{title}</h1>;
 }
+
+const titleStyle: React.CSSProperties = {
+  backgroundColor: "gray",
+};
