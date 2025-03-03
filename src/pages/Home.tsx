@@ -8,9 +8,9 @@ export default function Home() {
       -Add title wording: I am crucified with Christ… Future impact x
       -Add Button “Get Started”***
        */}
-  
 
-      <b>I am crucified with Christ...</b>
+        {/* Headline */}
+      <h1>I am crucified with Christ...</h1>
 
       {/* TODO: Who you are bit */}
 

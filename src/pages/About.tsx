@@ -3,12 +3,12 @@ import ImageCard from "../components/Image";
 export default function About() {
   return (
     <>
+      {/* Headline */}
       <h1>Pastor John Ximenez, Sr.</h1>
 
       <ImageCard />
 
       <h2>BIO</h2>
-
 
       {/* TODO: Revise bio, condense paragraphs */}
       <p>
@@ -21,9 +21,10 @@ export default function About() {
         Servant of the most high. Ministry of youth is my passion. Worked as
         youth minister for 42 years as a minister, life coach, and friend.
         Developing character, and code for today's youth. As a puppeteer, worked
-        and trained youth the skills necessary to teach the values of Christianity,
-        thru teaching comedy and drama. As a licensed minister, pastor church in
-        the spiritual realm of this world thru scripture and example.
+        and trained youth the skills necessary to teach the values of
+        Christianity, thru teaching comedy and drama. As a licensed minister,
+        pastor church in the spiritual realm of this world thru scripture and
+        example.
       </p>
     </>
   );

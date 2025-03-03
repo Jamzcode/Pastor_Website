@@ -16,9 +16,9 @@ export default function Contact() {
       -Add spot for hours of operation x
       -Add “Get in touch” button to lead to gaining contact information of potential clients x
       */}
-      
-      
-      
+
+      {/* Headline */}
+      <h1>Send a Message!</h1>
       {/* Headshot */}
       <ImageCard />
       <p>
@@ -34,7 +34,7 @@ export default function Contact() {
       <p>Email: jaxtenagra@gmail.com</p>
 
       <>
-      {/* 
+        {/* 
       Section (8)
         -Add title spot for title name (Sunday Sermons and more!)
         -Add spot for Facebook link (Add clickable Icon)
@@ -43,30 +43,25 @@ export default function Contact() {
         -Add spot for YouTube link (Add clickable Icon)
       */}
 
+        {/* TODO: create input form component */}
+        <div>______________________________</div>
+        <div>
+          <h3>Name:</h3>
+          <input />
 
-      <h1>Send a Message!</h1>
-      {/* TODO: create input form component */}
-      <div>
-        <h3>Name:</h3>
-        <input />
+          <h3>Email:</h3>
+          <input />
 
-        <h3>Email:</h3>
-        <input />
+          <h3>Phone:</h3>
+          <input />
 
-        <h3>Phone:</h3>
-        <input />
+          <h3>Notes:</h3>
+          <input />
 
-        <h3>Notes:</h3>
-        <input />
-
-        {/* TODO: create function for button to submit user info for processing.*/}
+          {/* TODO: create function for button to submit user info for processing.*/}
+        </div>
         <button>Submit Info</button>
-      </div>
-    </>
-      
-      
-      
-      
+      </>
     </>
   );
 }

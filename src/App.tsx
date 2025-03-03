@@ -7,7 +7,7 @@ import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 
 import NavigationBar from "./components/NavigationBar";
-import DynamicTitle from "./components/TabTitle";
+import TabTitle from "./components/TabTitle";
 import Title from "./components/Title";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       {/* Website Title Component */}
-      <DynamicTitle />
+      <TabTitle />
       <Title />
 
       {/* Navigation Bar Component */}

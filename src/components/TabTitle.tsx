@@ -6,9 +6,13 @@ export default function DynamicTitle(){
 
     useEffect(() => {
         const titles: {[key: string]: string } = {
-            "/": "Home",
+            "/": "Welcome! - Pastor John Ximenez, Sr.",
             "/about": "About",
             "/contact": "Contact Us",
+            "/mission": "Mission",
+            "/gallery":"Gallery",
+            
+
         };
 
         document.title = titles[location.pathname] || "My Website";

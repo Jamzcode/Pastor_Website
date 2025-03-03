@@ -15,6 +15,7 @@ export default function Gallery() {
       -Add title spot for title ( Available for preaching the word of God, Available for weddings as well)x
       */}
 
+      {/* Headline */}
       <h1>Reaching the community, sharing the good news.</h1>
 
       {/* TODO: Gallery for puppet ministry*/}
@@ -38,13 +39,10 @@ export default function Gallery() {
       <ImageCard />
       <ImageCard />
 
-
-       {/* TODO: Gallery for wedding services*/}
+      {/* TODO: Gallery for wedding services*/}
       <div>
         <h3>Matrimony</h3>
-        <p>
-          Officiating with a God centric service
-        </p>
+        <p>Officiating with a God centric service</p>
       </div>
       <ImageCard />
       <ImageCard />

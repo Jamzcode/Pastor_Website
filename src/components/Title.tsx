@@ -9,10 +9,10 @@ export default function Title() {
   useEffect(() => {
     const titles: { [key: string]: string } = {
       "/": "Pastor John Ximenez, Sr. | Puppet Mania | Future Impact",
-      "/about": "",
-      "/contact": "Contact Me",
+      "/about": "About",
+      "/contact": "Contact",
       "/mission": "Mission",
-      "/gallery": "Outreach",
+      "/gallery": "Gallery",
 
     };
 

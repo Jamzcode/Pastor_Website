@@ -12,13 +12,10 @@ export default function Mission() {
       -No action Button x
       */}
 
+      {/* Headline */}
+      <h1>Called to be fishers of men. MAT 4:19</h1>
 
       <ImageCard />
-
-    
-      <p>
-        <b>Called to be fishers of men. MAT 4:19</b>
-      </p>
 
       <p>
         Mission Statement: Through Future impact, Training and preaching for the
