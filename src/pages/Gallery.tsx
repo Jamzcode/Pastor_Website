@@ -23,7 +23,7 @@ export default function Gallery() {
           having fun!
         </p>
       </div>
-      <div style={imgStyle}>
+      <div className="image-slide" style={imageSlide}>
         <ImageCard
           src="https://placehold.co/400x200"
           alt="Small Image"
@@ -42,7 +42,7 @@ export default function Gallery() {
           Teaching Youth to be good people through the teachings of the Bible.
         </p>
       </div>
-      <div style={imgStyle}>
+      <div style={imageSlide}>
         <ImageCard
           src="https://placehold.co/400x200"
           alt="Small Image"
@@ -60,7 +60,7 @@ export default function Gallery() {
         <h3>Matrimony</h3>
         <p>Officiating with a God centric service</p>
       </div>
-      <div style={imgStyle}>
+      <div style={imageSlide}>
         <ImageCard
           src="https://placehold.co/400x200"
           alt="Small Image"
@@ -79,6 +79,8 @@ export default function Gallery() {
   );
 }
 
-const imgStyle: React.CSSProperties = {
+const imageSlide: React.CSSProperties = {
   border: "solid black 1px",
+  display: "flex",
+  justifyContent: "space-evenly",
 };
