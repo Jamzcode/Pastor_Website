@@ -15,7 +15,11 @@ export default function Mission() {
       {/* Headline */}
       <h1>Called to be fishers of men. MAT 4:19</h1>
 
-      <ImageCard />
+      <ImageCard
+        src="https://placehold.co/400x200"
+        alt="Large Image"
+        size="large"
+      />
 
       <p>
         Mission Statement: Through Future impact, Training and preaching for the

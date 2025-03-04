@@ -20,7 +20,11 @@ export default function Contact() {
       {/* Headline */}
       <h1>Send a Message!</h1>
       {/* Headshot */}
-      <ImageCard />
+      <ImageCard
+        src="https://placehold.co/400x200"
+        alt="Large Image"
+        size="large"
+      />
       <p>
         “Have I not commanded you be strong and courageous do not be afraid do
         not be discouraged for the lord your God will be with you wherever you

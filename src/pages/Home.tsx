@@ -9,7 +9,7 @@ export default function Home() {
       -Add Button “Get Started”***
        */}
 
-        {/* Headline */}
+      {/* Headline */}
       <h1>I am crucified with Christ...</h1>
 
       {/* TODO: Who you are bit */}
@@ -17,17 +17,29 @@ export default function Home() {
       {/* TODO: Create links to appropriate pages via clicking on pics*/}
       <div>
         Headshot
-        <ImageCard />
+        <ImageCard
+          src="https://placehold.co/400x200"
+          alt="Large Image"
+          size="large"
+        />
       </div>
 
       <div>
         FutureImpact
-        <ImageCard />
+        <ImageCard
+          src="https://placehold.co/400x200"
+          alt="Large Image"
+          size="large"
+        />
       </div>
 
       <div>
         PuppetMania
-        <ImageCard />
+        <ImageCard
+          src="https://placehold.co/400x200"
+          alt="Large Image"
+          size="large"
+        />
       </div>
     </>
   );

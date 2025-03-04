@@ -6,7 +6,11 @@ export default function About() {
       {/* Headline */}
       <h1>Pastor John Ximenez, Sr.</h1>
 
-      <ImageCard />
+      <ImageCard
+        src="https://placehold.co/400x200"
+        alt="Small Image"
+        size="large"
+      />
 
       <h2>BIO</h2>
 
