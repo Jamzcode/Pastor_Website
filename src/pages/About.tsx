@@ -1,4 +1,4 @@
-import ImageCard from "../components/Image";
+import ImageCard from "../components/ImageCard";
 
 export default function About() {
   return (
