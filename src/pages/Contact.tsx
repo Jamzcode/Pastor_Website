@@ -21,7 +21,7 @@ export default function Contact() {
       <h1>Send a Message!</h1>
       {/* Headshot */}
       <ImageCard
-        src="https://placehold.co/400x200"
+        src="src\assets\home-headshot.jpg"
         alt="Large Image"
         size="large"
       />
@@ -64,7 +64,7 @@ export default function Contact() {
 
           {/* TODO: create function for button to submit user info for processing.*/}
         </div>
-        <button>Submit Info</button>
+        <button onClick={() => alert("You submitted info!")}>Submit Info</button>
       </>
     </>
   );

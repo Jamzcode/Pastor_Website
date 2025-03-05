@@ -1,4 +1,6 @@
 import ImageCard from "../components/ImageCard";
+import { Link } from "react-router-dom";
+
 
 export default function About() {
   return (
@@ -7,7 +9,7 @@ export default function About() {
       <h1>Pastor John Ximenez, Sr.</h1>
 
       <ImageCard
-        src="https://placehold.co/400x200"
+        src="src\assets\about-preaching.PNG"
         alt="Small Image"
         size="large"
       />
@@ -30,6 +32,17 @@ export default function About() {
         pastor church in the spiritual realm of this world thru scripture and
         example.
       </p>
+      <p>
+        42 years as a youth director/minister, working with youth from ages 12
+        to 18 yrs. Youth camp counselor, training of youth thru youth study
+        groups, thru training of puppet ministry, dramas, and training youth for
+        future roles of church ministries. course work in child phychology,
+        Pastoral ministry at Seacroft Baptist church
+      </p>
+
+      <button>
+        <Link to="/gallery">View Gallery</Link>
+      </button>
     </>
   );
 }

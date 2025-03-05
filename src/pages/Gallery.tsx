@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import ImageCard from "../components/ImageCard";
 
 export default function Gallery() {
@@ -19,18 +21,18 @@ export default function Gallery() {
       <div>
         <h3>Puppet Mania</h3>
         <p>
-          Scripture and teachings thru puppets and humor... learning while
-          having fun!
+          puppet ministry Thru training and presentation of plays and dramas, we
+          created a deeper relationship with our church, community, and Christ.
         </p>
       </div>
       <div className="image-slide" style={imageSlide}>
         <ImageCard
-          src="https://placehold.co/400x200"
+          src="src\assets\gallery-puppet1.jpg"
           alt="Small Image"
           size="small"
         />
         <ImageCard
-          src="https://placehold.co/400x200"
+          src="src\assets\gallery-puppet2.jpg"
           alt="Small Image"
           size="small"
         />
@@ -39,17 +41,22 @@ export default function Gallery() {
       <div>
         <h3>Future Impact</h3>
         <p>
-          Teaching Youth to be good people through the teachings of the Bible.
+          as a program started in early 2000s with the goal of reaching youth
+          for the ministry, thru training at a younger age, can strengthen
+          knowledge of Christ, and bring a better understanding of walking with
+          faith, achieving that goal, as the youth grow older, they can take the
+          role of older Christians, and continue the legacy of Christ.and build
+          stronger bonds to their christanity
         </p>
       </div>
       <div style={imageSlide}>
         <ImageCard
-          src="https://placehold.co/400x200"
+          src="src\assets\gallery-FI1.PNG"
           alt="Small Image"
           size="small"
         />
         <ImageCard
-          src="https://placehold.co/400x200"
+          src="src\assets\gallery-FI2.PNG"
           alt="Small Image"
           size="small"
         />
@@ -58,7 +65,11 @@ export default function Gallery() {
 
       <div>
         <h3>Matrimony</h3>
-        <p>Officiating with a God centric service</p>
+        <p>
+          as a licensed minister can perform weddings for your special occasion.
+          Quinceaneras, per request as well. Special wedding service with Knight
+          and medieval clergy available
+        </p>
       </div>
       <div style={imageSlide}>
         <ImageCard
@@ -74,7 +85,10 @@ export default function Gallery() {
       </div>
       <h3>Inquire now for wedding services, etc.</h3>
       {/* Button */}
-      <button>Get in Touch</button>
+      <button >
+       
+        <Link to="/contact"> Get in Contact</Link>
+      </button>
     </>
   );
 }

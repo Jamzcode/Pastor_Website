@@ -16,7 +16,7 @@ export default function Mission() {
       <h1>Called to be fishers of men. MAT 4:19</h1>
 
       <ImageCard
-        src="https://placehold.co/400x200"
+        src="src\assets\mission.jpg"
         alt="Large Image"
         size="large"
       />
