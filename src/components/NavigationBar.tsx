@@ -1,38 +1,57 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function NavigationBar() {
-const [isPressed, setIsPressed] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
-function toggleNav() {
-  // Toggle navBar view
- setIsPressed((prev) => !prev);
- console.log("You've activated handleClick");
-}
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
 
-  if (isPressed) {
-    return (
+  return (
+    <>
       <nav style={navStyle}>
-        <Link to="./">Home</Link>
-        <Link to="./about">About</Link>
-        <Link to="./mission">Mission</Link>
-        <Link to="./gallery">Gallery</Link>
-        <Link to="./contact">Contact</Link>
-        <button onClick={toggleNav}>-</button>
+        <button onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? "Close" : "Menu"}
+        </button>
+
+        {isOpen && (
+          <ul>
+            <li>
+              <Link to="/" onClick={() => setIsOpen(false)}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" onClick={() => setIsOpen(false)}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/mission" onClick={() => setIsOpen(false)}>
+                Mission
+              </Link>
+            
+            </li>
+            <li>
+                <Link to="/gallery" onClick={() => setIsOpen(false)}>
+                  Gallery
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" onClick={() => setIsOpen(false)}>
+                  Contact Me
+                </Link>
+              </li>
+          </ul>
+        )}
       </nav>
-    );
-  } else {
-    return (
-      <>
-        <button onClick={toggleNav}>+</button>
-      </>
-    );
-  }
+    </>
+  );
 }
 
 const navStyle: React.CSSProperties = {
   backgroundColor: "lightcoral",
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
 };
