@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import NavigationBar from "./components/NavigationBar";
 import TabTitle from "./components/TabTitle";
 import Title from "./components/Title";
-import { Footer } from "./components/Footer.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   // TODO: create text component for stylized text (e.g. italicized, font, etc.).

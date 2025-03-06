@@ -1,4 +1,6 @@
-export function Footer() {
+import SocialMediaLink from "./SocialMediaLInk";
+
+export default function Footer() {
   return (
     <>
       {/* TODO: icons of social media that link to accounts. */}
@@ -7,6 +9,7 @@ export function Footer() {
         <div>
           <button>Facebook</button>
           <button>Instagram</button>
+          <SocialMediaLink/>
           <button>Youtube</button>
           <button>X(formerly known as Twitter)</button>
           <button>Tiktok</button>
