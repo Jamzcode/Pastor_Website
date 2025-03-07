@@ -1,18 +1,14 @@
-import SocialMediaLink from "./SocialMediaLInk";
+import SocialMediaLink from "./SocialMediaLink";
+
 
 export default function Footer() {
   return (
     <>
       {/* TODO: icons of social media that link to accounts. */}
-      <div>
-        <p style={footerStyle}>© Copyright 2025</p>
+      <div style={footerStyle}>
         <div>
-          <button>Facebook</button>
-          <button>Instagram</button>
-          <SocialMediaLink/>
-          <button>Youtube</button>
-          <button>X(formerly known as Twitter)</button>
-          <button>Tiktok</button>
+          <SocialMediaLink />
+          <p>© Copyright 2025</p>
         </div>
       </div>
     </>
