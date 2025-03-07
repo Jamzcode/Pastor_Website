@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 
 import ImageCard from "../components/ImageCard";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -20,10 +20,6 @@ export default function Home() {
         a passion unlike any other in this world. 45 years of life thru Christ,
         I myself no longer live.. but only for the honor of my God.
       </p>
-
-      <button>
-        <Link to="/about">Learn About Me</Link>
-      </button>
 
       <div style={{ backgroundColor: "#FFFFC5" }}>
         Headshot
@@ -49,6 +45,11 @@ export default function Home() {
           size="large"
         />
       </div>
+
+      <Button label="Learn About Me" to="/about" />
+      {/* <button>
+        <Link to="/about">Learn About Me</Link>
+      </button> */}
     </>
   );
 }

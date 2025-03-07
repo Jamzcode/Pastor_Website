@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import Button from "../components/Button";
 import ImageCard from "../components/ImageCard";
 
 export default function Gallery() {
@@ -85,10 +84,8 @@ export default function Gallery() {
       </div>
       <h3>Inquire now for wedding services, etc.</h3>
       {/* Button */}
-      <button >
-       
-        <Link to="/contact"> Get in Contact</Link>
-      </button>
+
+      <Button label="Get in Contact" to="/contact" />
     </>
   );
 }

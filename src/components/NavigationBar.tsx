@@ -18,7 +18,7 @@ export default function NavigationBar() {
         </button>
 
         {isOpen && (
-          <ul>
+          <ul style={linkListStyle}>
             <li>
               <Link to="/" onClick={() => setIsOpen(false)}>
                 Home
@@ -53,5 +53,9 @@ export default function NavigationBar() {
 }
 
 const navStyle: React.CSSProperties = {
-  backgroundColor: "lightcoral",
+  backgroundColor: "#3A3A3A",
 };
+
+const linkListStyle: React.CSSProperties = {
+  backgroundColor: "white"
+}

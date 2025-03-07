@@ -1,5 +1,5 @@
 import ImageCard from "../components/ImageCard";
-import { Link } from "react-router-dom";
+import Button from "../components/Button";
 
 
 export default function About() {
@@ -40,9 +40,7 @@ export default function About() {
         Pastoral ministry at Seacroft Baptist church
       </p>
 
-      <button>
-        <Link to="/gallery">View Gallery</Link>
-      </button>
+      <Button label="view gallery" to="/gallery"/>
     </>
   );
 }

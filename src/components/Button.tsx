@@ -1,9 +1,24 @@
-export default function Button() {
-  return <button style={styles.button}>Click Me!</button>;
+import { useNavigate } from "react-router-dom";
+
+interface ButtonProps {
+  label: string;
+  to: string;
 }
 
-const styles = {
-  button: {
-    backgroundColor: "skyblue",
-  },
+export default function Button({ label, to }: ButtonProps) {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <button onClick={() => navigate(to)} style={buttonStyle}>
+        {label}
+      </button>
+    </>
+  );
+}
+
+const buttonStyle: React.CSSProperties = {
+  border: "none",
+  backgroundColor: "#6D1B3F",
+  color: "white",
 };
