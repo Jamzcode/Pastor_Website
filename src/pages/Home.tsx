@@ -1,6 +1,5 @@
-
-import ImageCard from "../components/ImageCard";
-import Button from "../components/Button";
+import ImageCard from "../components/ImageCard/ImageCard";
+import Button from "../components/Button/Button";
 
 export default function Home() {
   return (
@@ -14,23 +13,43 @@ export default function Home() {
       <h1>I am crucified with Christ...</h1>
       {/* TODO: Who you are bit */}
       {/* TODO: Create links to appropriate pages via clicking on pics*/}
-      <p>
-        welcome to future impact, we are creating a site to better understand
-        faith, hope strength and the honor of our Lord Jesus Christ. To make it
-        a passion unlike any other in this world. 45 years of life thru Christ,
-        I myself no longer live.. but only for the honor of my God.
-      </p>
 
-      <div style={{ backgroundColor: "#FFFFC5" }}>
-        Headshot
-        <ImageCard
-          src="src\assets\home-headshot.jpg"
-          alt="Large Image"
-          size="large"
-        />
-      </div>
+      {/* <p>
+        Welcome to Future Impact! We are creating a site dedicated to deepening
+        our understanding of faith, hope, strength, and the honor of our Lord
+        Jesus Christ. Our mission is to cultivate a passion for Christ that is
+        unlike anything else in this world.
+      </p> */}
+      {/* <p>
+        At Future Impact, we believe faith is not just a belief—it is a way of
+        life. Through this platform, we hope to share insights, testimonies, and
+        teachings that inspire and uplift others in their walk with Christ. Our
+        goal is to build a community rooted in love, perseverance, and
+        unwavering devotion to God’s purpose. Whether you are seeking
+        encouragement, wisdom, or a deeper relationship with Christ, we are here
+        to walk this journey with you.
+      </p> */}
+
       <div>
-        FutureImpact
+        <div>
+          {/* Headshot */}
+          <ImageCard
+            src="src\assets\home-headshot.jpg"
+            alt="Large Image"
+            size="large"
+          />
+        </div>
+        <div>
+          <p>
+            For 45 years, I have lived my life through Christ. I no longer live
+            for myself but solely for the glory and honor of my God. Every step
+            I take is guided by His wisdom, and every challenge I face is met
+            with the strength He provides.
+          </p>
+        </div>
+      </div>
+
+      {/* <div>
         <ImageCard
           src="src\assets\preaching1.PNG"
           alt="Large Image"
@@ -38,18 +57,14 @@ export default function Home() {
         />
       </div>
       <div>
-        PuppetMania
         <ImageCard
           src="src\assets\home-puppet.PNG"
           alt="Large Image"
           size="large"
         />
-      </div>
+      </div> */}
 
       <Button label="Learn About Me" to="/about" />
-      {/* <button>
-        <Link to="/about">Learn About Me</Link>
-      </button> */}
     </>
   );
 }

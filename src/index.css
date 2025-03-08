@@ -1,3 +1,10 @@
 body {
+    font-family: 'Lato', sans-serif;
     background-color: #F8F5EE;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair', serif;
+    color: #4A3F35;
 }

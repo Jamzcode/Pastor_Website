@@ -1,0 +1,7 @@
+.picture{
+    width: 600px; 
+    height:400px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 5px;
+}

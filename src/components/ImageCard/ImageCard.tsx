@@ -1,3 +1,6 @@
+import styles from "./ImageCard.module.css"
+
+
 type ImageSize = "large" | "small";
 
 const sizes: Record<ImageSize, { width: number; height: number }> = {
@@ -11,9 +14,7 @@ export default function ImageCard({ src, alt, size }: ImageCardProps) {
   const { width, height } = sizes[size];
 
   return (
-    <div
-      style={{ width, height, overflow: "hidden", border: "1px solid black" }}
-    >
+    <div className={styles.picture} >
       <img
         src={src}
         alt={alt}

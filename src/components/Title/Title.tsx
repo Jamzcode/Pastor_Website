@@ -8,21 +8,16 @@ export default function Title() {
 
   useEffect(() => {
     const titles: { [key: string]: string } = {
-      "/": "Pastor John Ximenez, Sr. | Puppet Mania | Future Impact",
-      "/about": "About",
-      "/contact": "Contact",
+      "/": "Pastor John Ximenez, Sr.",
+      "/about": "About Me",
+      "/contact": "Contact Me",
       "/mission": "Mission",
-      "/gallery": "Gallery",
-
+      "/gallery": "Outreach",
     };
 
     const newTitle = titles[location.pathname];
     setTitle(newTitle);
   }, [location.pathname]);
 
-  return <h1 style={titleStyle}>{title}</h1>;
+  return <h1>{title}</h1>;
 }
-
-const titleStyle: React.CSSProperties = {
-  backgroundColor: "gray",
-};

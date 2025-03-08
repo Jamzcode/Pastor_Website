@@ -1,5 +1,5 @@
-import ImageCard from "../components/ImageCard";
-import Button from "../components/Button";
+import ImageCard from "../components/ImageCard/ImageCard";
+import Button from "../components/Button/Button";
 
 
 export default function About() {

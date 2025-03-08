@@ -1,4 +1,5 @@
-import ImageCard from "../components/ImageCard";
+import ImageCard from "../components/ImageCard/ImageCard";
+import Button from "../components/Button/Button";
 
 export default function Contact() {
   // TODO: link button to get in touch page.
@@ -18,7 +19,7 @@ export default function Contact() {
       */}
 
       {/* Headline */}
-      <h1>Send a Message!</h1>
+      <h1>Sermons | Weddings | Prayers</h1>
       {/* Headshot */}
       <ImageCard
         src="src\assets\home-headshot.jpg"
@@ -26,19 +27,21 @@ export default function Contact() {
         size="large"
       />
       <p>
-        “Have I not commanded you be strong and courageous do not be afraid do
-        not be discouraged for the lord your God will be with you wherever you
-        go Joshua 1:19” +Additional paragraph to read, “Available for preaching,
-        Weddings, Prayer requests.”
+        <i>
+          Have I not commanded you? Be strong and courageous. Do not be afraid;
+          do not be discouraged, for the Lord your God will be with you wherever
+          you go. &mdash; Joshua 1:19
+        </i>
       </p>
 
       {/* TODO: make card to display contact information. */}
-      <div>Pastor John Ximenez, Sr.</div>
-      <p>Phone:(210) 705-****</p>
-      <p>Email: jaxtenagra@gmail.com</p>
+      <div>
+        Pastor John Ximenez, Sr.
+        <p>Phone:(210) 705-****</p>
+        <p>Email: jaxtenagra@gmail.com</p>
+      </div>
 
-      <>
-        {/* 
+      {/* 
       Section (8)
         -Add title spot for title name (Sunday Sermons and more!)
         -Add spot for Facebook link (Add clickable Icon)
@@ -47,25 +50,26 @@ export default function Contact() {
         -Add spot for YouTube link (Add clickable Icon)
       */}
 
-        {/* TODO: create input form component */}
-        <div>______________________________</div>
-        <div>
-          <h3>Name:</h3>
-          <input />
+      {/* TODO: create input form component */}
+      <div>______________________________</div>
+      <div>
+        <h3>Name:</h3>
+        <input />
 
-          <h3>Email:</h3>
-          <input />
+        <h3>Email:</h3>
+        <input />
 
-          <h3>Phone:</h3>
-          <input />
+        <h3>Phone:</h3>
+        <input />
 
-          <h3>Notes:</h3>
-          <input />
+        <h3>Notes:</h3>
+        <input />
 
-          {/* TODO: create function for button to submit user info for processing.*/}
-        </div>
-        <button onClick={() => alert("You submitted info!")}>Submit Info</button>
-      </>
+        {/* TODO: create function for button to submit user info for processing.*/}
+      </div>
+
+      <Button label="Submit Info" onClick={() => alert("You submitted info!")} />
+      
     </>
   );
 }

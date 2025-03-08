@@ -1,5 +1,5 @@
-import Button from "../components/Button";
-import ImageCard from "../components/ImageCard";
+import Button from "../components/Button/Button";
+import ImageCard from "../components/ImageCard/ImageCard";
 
 export default function Gallery() {
   // TODO: clicking on image will enlarge the image.

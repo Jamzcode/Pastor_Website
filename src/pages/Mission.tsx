@@ -1,4 +1,6 @@
-import ImageCard from "../components/ImageCard";
+import ImageCard from "../components/ImageCard/ImageCard";
+import Button from "../components/Button/Button";
+
 
 export default function Mission() {
   return (
@@ -25,6 +27,10 @@ export default function Mission() {
         Mission Statement: Through Future impact, Training and preaching for the
         youth of tomorrow and their impact in the world
       </p>
+
+
+      <Button label="View Outreach" to="/gallery"/>
+
     </>
   );
 }
