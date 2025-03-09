@@ -1,11 +1,11 @@
-import SocialMediaLink from "./SocialMediaLink";
-
+import SocialMediaLink from "../SocialMediaLinks/SocialMediaLink";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
     <>
       {/* TODO: icons of social media that link to accounts. */}
-      <div style={footerStyle}>
+      <div className={styles.footer}>
         <div>
           <SocialMediaLink />
           <p>© Copyright 2025</p>
@@ -14,8 +14,3 @@ export default function Footer() {
     </>
   );
 }
-
-const footerStyle: React.CSSProperties = {
-  border: "solid black 1px",
-  backgroundColor: "goldenrod",
-};

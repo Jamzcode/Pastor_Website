@@ -8,10 +8,10 @@ import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 
-import NavigationBar from "./components/NavigationBar";
+import NavigationBar from "./components/NavigationBar/NavigationBar.tsx";
 import TabTitle from "./components/TabTitle";
 import Title from "./components/Title/Title.tsx";
-import Footer from "./components/Footer.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
   // TODO: create text component for stylized text (e.g. italicized, font, etc.).

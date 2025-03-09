@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import styles from "./NavigationBar.module.css";
+
+
 
 export default function NavigationBar() {
   return (
     <>
-      <nav style={navStyle}>
-        <div style={linkListStyle}>
+      <nav className={styles.navStyle}>
+        <div className={styles.linkListStyle}>
           <div>
             <Link to="/">Home</Link>
           </div>
@@ -25,16 +28,3 @@ export default function NavigationBar() {
     </>
   );
 }
-
-const navStyle: React.CSSProperties = {
-  backgroundColor: "#8A794E",
-};
-
-const linkListStyle: React.CSSProperties = {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-around",
-  backgroundColor: "#8A794E",
-  color: "white",
-  margin: "0px",
-};
