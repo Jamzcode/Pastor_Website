@@ -1,13 +1,13 @@
-.navStyle{
-    background-color: #8A794E;
-
+.navStyle {
+  background-color: #8a794e;
+  position: relative;
+  width: 100%;
 }
 
-.linkListStyle{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #8A794E;
-    color: white;
-    margin: 0px;
+.linkListStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #8a794e;
+  width: 100%;
 }

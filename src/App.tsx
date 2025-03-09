@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home.tsx";
 
 import NavigationBar from "./components/NavigationBar/NavigationBar.tsx";
 import TabTitle from "./components/TabTitle";
@@ -24,10 +24,11 @@ function App() {
     <>
       {/* Website Title Component */}
       <TabTitle />
-      <Title />
-
-      {/* Navigation Bar Component */}
-      <NavigationBar />
+      <div className="topBar">
+        <Title />
+        <NavigationBar />
+      </div>
+<div className="routes-container"></div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />} />

@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 
+import styles from "./Title.module.css"
+
 export default function Title() {
   const location = useLocation();
   const [title, setTitle] = useState("My Website");
@@ -19,5 +21,9 @@ export default function Title() {
     setTitle(newTitle);
   }, [location.pathname]);
 
-  return <h1>{title}</h1>;
+  return (
+    <div className={styles.background}>
+      <h1 className={styles.headline}>{title}</h1>
+    </div>
+  );
 }
