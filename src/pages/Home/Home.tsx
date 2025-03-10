@@ -2,6 +2,8 @@ import ImageCard from "../../components/ImageCard/ImageCard";
 import Button from "../../components/Button/Button";
 import styles from "./Home.module.css";
 
+import headshot from "../../assets/home-headshot.jpg";
+
 export default function Home() {
   return (
     <>
@@ -33,7 +35,7 @@ export default function Home() {
       <h1 className={styles.header}>I am crucified with Christ...</h1>
       <div>
         <ImageCard
-          src="src/assets/home-headshot.jpg"
+          src={headshot}
           alt="Large Image"
           size="large"
         />
