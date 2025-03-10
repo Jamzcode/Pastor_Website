@@ -1,5 +1,4 @@
 .navStyle {
-  background-color: #8a794e;
   position: relative;
   width: 100%;
 }
@@ -9,5 +8,17 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #8a794e;
+  border-bottom: solid #cad66b 3px;
   width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
 }

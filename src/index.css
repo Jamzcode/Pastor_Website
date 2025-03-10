@@ -1,24 +1,31 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-image: url("assets/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    margin: 0px;
-   
+  font-family: "Lato", sans-serif;
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0px;
+  height: 100vh;
+  font-size: 30px;
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair', serif;
-    color: #4A3F35;
+h1,
+h2,
+h3 {
+  font-family: "Playfair", serif;
+  color: #4a3f35;
 }
 
-.topBar{
-    position: fixed;
-    width: 100%;
+.topBar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 10px 15px 15px rgba(0, 0, 0, .6)
+
 }
 
 .routes-container{
-    padding-top: 60px;
+  padding-top: 70px;
+
 }
 

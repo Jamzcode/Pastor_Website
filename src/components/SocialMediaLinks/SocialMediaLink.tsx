@@ -1,8 +1,10 @@
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import styles from "./SocialMediaLink.module.css"
+
 
 export default function SocialMediaLink() {
   return (
-    <div>
+    <div className={styles.socialMediaStyle}>
       <a
         href="https://www.instagram.com/futureimpact79"
         target="_blank"

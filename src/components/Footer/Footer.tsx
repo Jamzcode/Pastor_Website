@@ -6,10 +6,8 @@ export default function Footer() {
     <>
       {/* TODO: icons of social media that link to accounts. */}
       <div className={styles.footer}>
-        <div>
-          <SocialMediaLink />
-          <p>© Copyright 2025</p>
-        </div>
+        <SocialMediaLink />
+        <p>© Copyright 2025</p>
       </div>
     </>
   );

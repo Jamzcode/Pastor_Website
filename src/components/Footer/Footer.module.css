@@ -1,4 +1,15 @@
-.footer{
-    border: solid black 1px;
-    background-color: goldenrod;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: goldenrod;
+  position: relative;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+p{
+  margin: 0px;
+  font-size: 20px;
+  color: black;
 }
