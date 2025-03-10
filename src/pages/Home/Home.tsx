@@ -33,7 +33,7 @@ export default function Home() {
       <h1 className={styles.header}>I am crucified with Christ...</h1>
       <div>
         <ImageCard
-          src="src\assets\home-headshot.jpg"
+          src="src/assets/home-headshot.jpg"
           alt="Large Image"
           size="large"
         />
