@@ -1,6 +1,7 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
 
+import headshot from "../assets/home-headshot.jpg"
 export default function Contact() {
   // TODO: link button to get in touch page.
   return (
@@ -22,7 +23,7 @@ export default function Contact() {
       <h1>Sermons | Weddings | Prayers</h1>
       {/* Headshot */}
       <ImageCard
-        src="src\assets\home-headshot.jpg"
+        src={headshot}
         alt="Large Image"
         size="large"
       />

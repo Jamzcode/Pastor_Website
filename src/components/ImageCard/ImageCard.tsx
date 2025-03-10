@@ -1,5 +1,4 @@
-import styles from "./ImageCard.module.css"
-
+import styles from "./ImageCard.module.css";
 
 type ImageSize = "large" | "small";
 
@@ -14,14 +13,13 @@ export default function ImageCard({ src, alt, size }: ImageCardProps) {
   const { width, height } = sizes[size];
 
   return (
-    <div className={styles.picture} >
-      <img
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        style={{ objectFit: "cover" }}
-      />
-    </div>
+    <img
+      className={styles.picture}
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      style={{ objectFit: "cover" }}
+    />
   );
 }

@@ -1,6 +1,7 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
 
+import mission from "../assets/mission.jpg"
 
 export default function Mission() {
   return (
@@ -18,7 +19,7 @@ export default function Mission() {
       <h1>Called to be fishers of men. MAT 4:19</h1>
 
       <ImageCard
-        src="src\assets\mission.jpg"
+        src={mission}
         alt="Large Image"
         size="large"
       />

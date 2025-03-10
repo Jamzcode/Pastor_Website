@@ -1,6 +1,7 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
 
+import preaching from "../assets/about-preaching.jpg";
 
 export default function About() {
   return (
@@ -9,8 +10,8 @@ export default function About() {
       <h1>Pastor John Ximenez, Sr.</h1>
 
       <ImageCard
-        src="src\assets\about-preaching.PNG"
-        alt="Small Image"
+        src={preaching}
+        alt="Large Image"
         size="large"
       />
 
