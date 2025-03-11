@@ -52,6 +52,7 @@ export default function ContactForm() {
             required
           />
         </label>
+        <button type="submit">Submit Info</button>
       </form>
     </>
   );
