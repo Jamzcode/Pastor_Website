@@ -1,8 +1,14 @@
 .formContainer {
     display: flex;
     flex-direction: column;
+    padding: 5px;
     border: solid white 3px;
     background-color:rgba(0, 0, 0, .4);
     font-size: 30px;
     color: white;
+}
+
+.inputFormat{
+    display: flex;
+    align-items: center;
 }
