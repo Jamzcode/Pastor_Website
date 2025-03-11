@@ -1,67 +1,37 @@
-import styles from "./Form.module.css";
-import { useState } from "react";
+// import styles from "./Form.module.css";
+// import { useState } from "react";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-  });
+//   const [formData, setFormData] = useState({
+//     name: "",
+//     email: "",
+//     phone: "",
+//   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+ 
 
   return (
     <>
-      <div></div>
-      <form
-        className={styles.formContainer}
-        name="contact"
-        method="POST"
-        data-netlify="true"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-
-        <div className={styles.inputFormat}>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
           <label>
-            <p>Name:</p>
+            Your Name: <input type="text" name="name" />
           </label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className={styles.inputFormat}>
+        </p>
+        <p>
           <label>
-            <p>Email:</p>
+            Your Email: <input type="email" name="email" />
           </label>
-          <input
-            type="text"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
+        </p>
 
-        <div className={styles.inputFormat}>
+        <p>
           <label>
-            <p>Phone:</p>
+            Message: <textarea name="message"></textarea>
           </label>
-          <input
-            type="text"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <button type="submit">Submit Info</button>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
     </>
   );
