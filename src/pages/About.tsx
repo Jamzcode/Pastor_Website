@@ -1,5 +1,6 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
+import Header from "../components/Header/Header";
 
 import preaching from "../assets/about-preaching.jpg";
 
@@ -7,13 +8,9 @@ export default function About() {
   return (
     <>
       {/* Headline */}
-      <h1>Pastor John Ximenez, Sr.</h1>
+      <Header title="Pastor John Ximenez, Sr." />
 
-      <ImageCard
-        src={preaching}
-        alt="Large Image"
-        size="large"
-      />
+      <ImageCard src={preaching} alt="Large Image" size="large" />
 
       <h2>BIO</h2>
 
@@ -41,7 +38,7 @@ export default function About() {
         Pastoral ministry at Seacroft Baptist church
       </p>
 
-      <Button label="view gallery" to="/gallery"/>
+      <Button label="view gallery" to="/gallery" />
     </>
   );
 }

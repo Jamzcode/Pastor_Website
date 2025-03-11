@@ -1,3 +1,13 @@
-.header{
-  
+
+.heroFormat {
+    display: flex;
+    align-items: center;
+    border: solid rgba(255, 255, 255, .9) 2px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .20);
+}
+
+.text{
+    color: white;
+    font-size: 30px;
 }

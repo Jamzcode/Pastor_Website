@@ -1,5 +1,13 @@
 import Button from "../components/Button/Button";
 import ImageCard from "../components/ImageCard/ImageCard";
+import Header from "../components/Header/Header";
+
+import pic1 from "../assets/gallery-puppet1.jpg";
+import pic2 from "../assets/gallery-puppet2.jpg";
+import pic3 from "../assets/gallery-FI1.jpg";
+import pic4 from "../assets/gallery-FI2.jpg";
+import pic5 from "../assets/pexels-megapixelstock-17834.jpg";
+import pic6 from "../assets/pexels-pixabay-265856.jpg";
 
 export default function Gallery() {
   // TODO: clicking on image will enlarge the image.
@@ -15,7 +23,8 @@ export default function Gallery() {
       -Add title spot for title ( Available for preaching the word of God, Available for weddings as well)x
       */}
       {/* Headline */}
-      <h1>Reaching the community, sharing the good news.</h1>
+
+      <Header title="Reaching the community, sharing the good news." />
       {/* TODO: Gallery for puppet ministry*/}
       <div>
         <h3>Puppet Mania</h3>
@@ -25,16 +34,8 @@ export default function Gallery() {
         </p>
       </div>
       <div className="image-slide" style={imageSlide}>
-        <ImageCard
-          src="src\assets\gallery-puppet1.jpg"
-          alt="Small Image"
-          size="small"
-        />
-        <ImageCard
-          src="src\assets\gallery-puppet2.jpg"
-          alt="Small Image"
-          size="small"
-        />
+        <ImageCard src={pic1} alt="Small Image" size="small" />
+        <ImageCard src={pic2} alt="Small Image" size="small" />
       </div>
       {/* TODO: Gallery for youth ministry*/}
       <div>
@@ -49,16 +50,8 @@ export default function Gallery() {
         </p>
       </div>
       <div style={imageSlide}>
-        <ImageCard
-          src="src\assets\gallery-FI1.PNG"
-          alt="Small Image"
-          size="small"
-        />
-        <ImageCard
-          src="src\assets\gallery-FI2.PNG"
-          alt="Small Image"
-          size="small"
-        />
+        <ImageCard src={pic3} alt="Small Image" size="small" />
+        <ImageCard src={pic4} alt="Small Image" size="small" />
       </div>
       {/* TODO: Gallery for wedding services*/}
 
@@ -71,16 +64,8 @@ export default function Gallery() {
         </p>
       </div>
       <div style={imageSlide}>
-        <ImageCard
-          src="https://placehold.co/400x200"
-          alt="Small Image"
-          size="small"
-        />
-        <ImageCard
-          src="https://placehold.co/400x200"
-          alt="Small Image"
-          size="small"
-        />
+        <ImageCard src={pic5} alt="Small Image" size="small" />
+        <ImageCard src={pic6} alt="Small Image" size="small" />
       </div>
       <h3>Inquire now for wedding services, etc.</h3>
       {/* Button */}

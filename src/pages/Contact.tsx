@@ -1,7 +1,7 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
-
-import headshot from "../assets/home-headshot.jpg"
+import Header from "../components/Header/Header";
+import headshot from "../assets/home-headshot.jpg";
 export default function Contact() {
   // TODO: link button to get in touch page.
   return (
@@ -20,13 +20,9 @@ export default function Contact() {
       */}
 
       {/* Headline */}
-      <h1>Sermons | Weddings | Prayers</h1>
+      <Header title="Sermons | Weddings | Prayers" />
       {/* Headshot */}
-      <ImageCard
-        src={headshot}
-        alt="Large Image"
-        size="large"
-      />
+      <ImageCard src={headshot} alt="Large Image" size="large" />
       <p>
         <i>
           Have I not commanded you? Be strong and courageous. Do not be afraid;
@@ -69,8 +65,10 @@ export default function Contact() {
         {/* TODO: create function for button to submit user info for processing.*/}
       </div>
 
-      <Button label="Submit Info" onClick={() => alert("You submitted info!")} />
-      
+      <Button
+        label="Submit Info"
+        onClick={() => alert("You submitted info!")}
+      />
     </>
   );
 }

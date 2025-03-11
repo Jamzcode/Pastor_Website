@@ -1,6 +1,9 @@
+
+
+
 body {
   font-family: "Lato", sans-serif;
-  background-image: url("/assets/background.jpg");
+  background-image: url("/assets/new_background.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -16,6 +19,12 @@ h3 {
   color: #4a3f35;
 }
 
+.appContainer{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .topBar {
   position: fixed;
   width: 100%;
@@ -25,7 +34,11 @@ h3 {
 }
 
 .routes-container{
-  padding-top: 70px;
+  padding-top: 90px;
+  margin: 0p;
+  height: 100vh;
+  flex: 1;
 
 }
+
 

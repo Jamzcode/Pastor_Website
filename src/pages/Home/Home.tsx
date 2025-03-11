@@ -1,6 +1,7 @@
 import ImageCard from "../../components/ImageCard/ImageCard";
 import Button from "../../components/Button/Button";
 import styles from "./Home.module.css";
+import Header from "../../components/Header/Header";
 
 import headshot from "../../assets/home-headshot.jpg";
 
@@ -32,14 +33,11 @@ export default function Home() {
         encouragement, wisdom, or a deeper relationship with Christ, we are here
         to walk this journey with you.
       </p> */}
-      <h1 className={styles.header}>I am crucified with Christ...</h1>
-      <div>
-        <ImageCard
-          src={headshot}
-          alt="Large Image"
-          size="large"
-        />
-        <p>
+
+      <Header title="I am Crucified with Christ" />
+      <div className={styles.heroFormat}>
+        <ImageCard src={headshot} alt="Large Image" size="large" />
+        <p className={styles.text}>
           For 45 years, I have lived my life through Christ. I no longer live
           for myself but solely for the glory and honor of my God. Every step I
           take is guided by His wisdom, and every challenge I face is met with

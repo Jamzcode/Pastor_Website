@@ -1,7 +1,7 @@
 import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
-
-import mission from "../assets/mission.jpg"
+import Header from "../components/Header/Header";
+import mission from "../assets/mission.jpg";
 
 export default function Mission() {
   return (
@@ -16,22 +16,16 @@ export default function Mission() {
       */}
 
       {/* Headline */}
-      <h1>Called to be fishers of men. MAT 4:19</h1>
+      <Header title="Called to be fishers of men. MAT 4:19" />
 
-      <ImageCard
-        src={mission}
-        alt="Large Image"
-        size="large"
-      />
+      <ImageCard src={mission} alt="Large Image" size="large" />
 
       <p>
         Mission Statement: Through Future impact, Training and preaching for the
         youth of tomorrow and their impact in the world
       </p>
 
-
-      <Button label="View Outreach" to="/gallery"/>
-
+      <Button label="View Outreach" to="/gallery" />
     </>
   );
 }

@@ -23,22 +23,24 @@ function App() {
   return (
     <>
       {/* Website Title Component */}
-      <div className="topBar">
-        <Title />
-        <NavigationBar />
-      </div>
-      <TabTitle />
+      <div className="appContainer">
+        <div className="topBar">
+          <Title />
+          <NavigationBar />
+        </div>
+        <TabTitle />
 
-      <div className="routes-container">
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="routes-container">
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/about" element={<About />} />
+            <Route path="/mission" element={<Mission />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }
