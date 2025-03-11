@@ -2,6 +2,9 @@ import ImageCard from "../components/ImageCard/ImageCard";
 import Button from "../components/Button/Button";
 import Header from "../components/Header/Header";
 import headshot from "../assets/home-headshot.jpg";
+import Form from "../components/Form/Form";
+
+
 export default function Contact() {
   // TODO: link button to get in touch page.
   return (
@@ -49,21 +52,8 @@ export default function Contact() {
 
       {/* TODO: create input form component */}
       <div>______________________________</div>
-      <div>
-        <h3>Name:</h3>
-        <input />
-
-        <h3>Email:</h3>
-        <input />
-
-        <h3>Phone:</h3>
-        <input />
-
-        <h3>Notes:</h3>
-        <input />
-
-        {/* TODO: create function for button to submit user info for processing.*/}
-      </div>
+      
+      <Form/>
 
       <Button
         label="Submit Info"

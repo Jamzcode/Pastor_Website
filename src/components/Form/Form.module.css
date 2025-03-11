@@ -1,0 +1,8 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    border: solid white 3px;
+    background-color:rgba(0, 0, 0, .4);
+    font-size: 30px;
+    color: white;
+}
