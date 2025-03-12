@@ -11,7 +11,7 @@ export default function SocialMediaLink() {
         rel="noopener noreferer"
         className="text-pink-500 hover:text-pink-700 transition-all duration-200"
       >
-        <FaInstagram size={32} />
+        <FaInstagram size={30} />
       </a>
 
       <a
@@ -20,7 +20,7 @@ export default function SocialMediaLink() {
         rel="noopener noreferer"
         className="text-pink-500 hover:text-pink-700 transition-all duration-200"
       >
-        <FaFacebook size={32} />
+        <FaFacebook size={30} />
       </a>
       <a
         href="https://www.youtube.com/@futureimpact-q2r?si=tDiVZ_V_-PKozL0k"
@@ -28,7 +28,7 @@ export default function SocialMediaLink() {
         rel="noopener noreferer"
         className="text-pink-500 hover:text-pink-700 transition-all duration-200"
       >
-        <FaYoutube size={32} />
+        <FaYoutube size={30} />
       </a>
     </div>
   );

@@ -1,0 +1,10 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background: #f8f5ee;
+    border: solid 3px #8a794e;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}

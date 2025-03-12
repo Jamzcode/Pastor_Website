@@ -1,11 +1,9 @@
-.button{
-    border-radius: 10px;
-    background-color: #6D1B3F;
-    width: auto;
-    height: auto;
-    color: white;
-    font-size: 25px;
-    padding: 10px;
-    
-    
-  };
+.button {
+  border-radius: 10px;
+  background-color: #6d1b3f;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}

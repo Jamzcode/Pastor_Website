@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import About from "./pages/About";
 import Mission from "./pages/Mission";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact.tsx";
 import Gallery from "./pages/Gallery";
 import Home from "./pages/Home/Home.tsx";
 

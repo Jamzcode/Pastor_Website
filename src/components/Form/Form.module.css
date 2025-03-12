@@ -1,14 +1,22 @@
 .formContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border: solid white 3px;
-    background-color:rgba(0, 0, 0, .4);
-    font-size: 30px;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 5px;
+  color: black;
+  border: solid 3px #8a794e;
+
+  border-radius: 15px;
+  background-color: #f8f5ee;
+  font-size: 30px;
 }
 
-.inputFormat{
-    display: flex;
-    align-items: center;
+.inputFormat {
+  display: flex;
+  align-items: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
 }
