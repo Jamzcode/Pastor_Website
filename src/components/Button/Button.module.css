@@ -1,9 +1,17 @@
 .button {
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: #6d1b3f;
   width: auto;
   height: auto;
   color: white;
   font-size: 25px;
-  padding: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.button:hover {
+  background-color: #87204c; /* Brighter version */
+  box-shadow: 0 4px 10px rgba(109, 27, 63, 0.4); /* Soft glow */
 }

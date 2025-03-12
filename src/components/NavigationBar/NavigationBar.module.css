@@ -13,8 +13,12 @@
 }
 
 .link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #f8f5ee;
+  font-family: "Playfair", serif;
+  font-size: 30px;
 }
 
 .link:hover {

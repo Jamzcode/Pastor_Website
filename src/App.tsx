@@ -2,10 +2,10 @@ import "./index.css";
 
 import { Routes, Route } from "react-router-dom";
 
-import About from "./pages/About";
-import Mission from "./pages/Mission";
+import About from "./pages/About/About.tsx";
+import Mission from "./pages/Mission/Mission.tsx";
 import Contact from "./pages/Contact/Contact.tsx";
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery/Gallery.tsx";
 import Home from "./pages/Home/Home.tsx";
 
 import NavigationBar from "./components/NavigationBar/NavigationBar.tsx";
