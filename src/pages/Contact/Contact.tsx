@@ -8,14 +8,14 @@ import styles from "./Contact.module.css";
 export default function Contact() {
   return (
     <>
-      <div className={styles.layout}>
+      <div className="page-layout">
         <Header title="Sermons | Weddings | Prayers" />
 
         <div className={`text-bubble ${styles.contactCluster}`}>
           <div className={styles.imageContainer}>
             <ImageCard src={headshot} alt="Large Image" size="large" />
           </div>
-          <div className={styles.text}>
+          <div className="text">
             <i>
               <b>
                 Have I not commanded you? Be strong and courageous. Do not be

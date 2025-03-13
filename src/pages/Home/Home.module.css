@@ -1,10 +1,11 @@
-.text {
+/* GLOBAL .page-layout */
+
+/* .layout {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  color: black;
-  font-size: 18px;
-  padding: 10px;
-}
+  padding: 15px;
+} */
 
 .heroCluster {
   display: flex;
@@ -12,15 +13,4 @@
   justify-content: space-between;
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
 
-.layout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-}

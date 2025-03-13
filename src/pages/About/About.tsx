@@ -8,7 +8,7 @@ import preaching from "../../assets/about-preaching.jpg";
 export default function About() {
   return (
     <>
-      <div className={styles.layout}>
+      <div className="page-layout">
         <Header title="Pastor John Ximenez, Sr." />
 
         <div className={`text-bubble ${styles.bioCluster}`}>
@@ -16,32 +16,71 @@ export default function About() {
             <ImageCard src={preaching} alt="Large Image" size="large" />
           </div>
 
-          <div className={styles.header}>
+          <div className={styles.headline}>
             <h2>BIO</h2>
           </div>
 
-          <div className={styles.text}>
-            Been in the ministry for 42 years. Puppeteer for 42 years, youth
-            minister for 36 years. Current pastor @ Palm Heights Baptist Church,
-            San Antonio, TX
-            <br />
-            Servant of the most high. Ministry of youth is my passion. Worked as
-            youth minister for 42 years as a minister, life coach, and friend.
-            Developing character, and code for today's youth. As a puppeteer,
-            worked and trained youth the skills necessary to teach the values of
-            Christianity, thru teaching comedy and drama. As a licensed
-            minister, pastor church in the spiritual realm of this world thru
-            scripture and example.
-            <br />
-            42 years as a youth director/minister, working with youth from ages
-            12 to 18 yrs. Youth camp counselor, training of youth thru youth
-            study groups, thru training of puppet ministry, dramas, and training
-            youth for future roles of church ministries. course work in child
-            phychology, Pastoral ministry at Seacroft Baptist church
+          <div className="text">
+            <div>
+              <p>
+                <strong>Reverend John Ximenez</strong> was 15 years old when he
+                began following the Lord Jesus Christ as his personal Savior.
+              </p>
+
+              <p>
+                At the age of 15, Reverend John Ximenez began using puppets for
+                Christ and served as a youth leader at South San Mexican Baptist
+                Church in San Antonio, Texas.
+              </p>
+
+              <p>
+                During this time, John worked with various types of puppets and
+                dramas, which were used at the church and in different locations
+                to teach the Word and minister to the youth in the community.
+              </p>
+
+              <p>
+                At the age of 18, John started his youth ministry called{" "}
+                <strong>Puppets and Clowns for Christ</strong>, which was later
+                renamed <strong>John Ximenez and His Puppets</strong>.
+              </p>
+
+              <p>
+                This ministry allowed John to train and mentor youth aged 12 to
+                18. As the ministry expanded, it performed shows and events in
+                the San Antonio area as well as in West Texas.
+              </p>
+
+              <p>
+                He was able to evangelize through puppet ministry during
+                week-long evangelism tours, which led to the expansion of his
+                ministry citywide. This growth included youth choirs and drama
+                performances in various churches and faith communities.
+              </p>
+
+              <p>
+                John is currently pastoring at{" "}
+                <strong>Palm Heights Baptist Church</strong> and is also
+                building an organization called{" "}
+                <strong>Future Impact 79</strong>.
+              </p>
+
+              <p>
+                This organization focuses on youth training, youth empowerment,
+                and puppet ministry, as well as developing future church leaders
+                through evangelism, puppeteering, drama, and youth ministry.
+              </p>
+
+              <p>
+                With 42 years of ministry experience, Reverend John hopes to
+                equip youth directors and leaders with a deeper understanding of
+                working with today's youth in an ever-changing world.
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className={styles.buttonContainer}>
+        <div className="button-container">
           <Button label="view gallery" to="/gallery" />
         </div>
       </div>

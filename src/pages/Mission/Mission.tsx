@@ -8,7 +8,7 @@ import styles from "./Mission.module.css";
 export default function Mission() {
   return (
     <>
-      <div className={styles.layout}>
+      <div className="page-layout">
         <Header title="Called to be fishers of men. &mdash;MAT 4:19" />
 
         <div className={`text-bubble ${styles.missionCluster}`}>
@@ -19,12 +19,12 @@ export default function Mission() {
           <div className={styles.headline}>
             <h2>Mission Statement</h2>
           </div>
-          <div className={styles.text}>
+          <div className="text">
             Through Future impact, Training and preaching for the youth of
             tomorrow and their impact in the world
           </div>
         </div>
-        <div className={styles.buttonContainer}>
+        <div className="button-container">
           <Button label="View Outreach" to="/gallery" />
         </div>
       </div>

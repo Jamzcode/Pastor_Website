@@ -1,29 +1,19 @@
-.imageContainer {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
+/* GLOBAL .page-layout */
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-}
-
-.layout{
+/* .layout {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 15px;
-}
+} */
 
-.text{
+.headline {
   display: flex;
   justify-content: center;
-  padding: 15px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }

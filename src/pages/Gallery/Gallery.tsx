@@ -16,12 +16,12 @@ export default function Gallery() {
 
   return (
     <>
-      <div className={styles.layout}>
+      <div className={`page-layout ${styles.layout}`}>
         <Header title="Reaching the community, sharing the good news." />
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Puppet Mania</h2>
-          <div className={styles.text}>
+          <div className="text">
             puppet ministry Thru training and presentation of plays and dramas,
             we created a deeper relationship with our church, community, and
             Christ.
@@ -34,7 +34,7 @@ export default function Gallery() {
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Future Impact</h2>
-          <div className={styles.text}>
+          <div className="text">
             as a program started in early 2000s with the goal of reaching youth
             for the ministry, thru training at a younger age, can strengthen
             knowledge of Christ, and bring a better understanding of walking
@@ -50,7 +50,7 @@ export default function Gallery() {
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Matrimony</h2>
-          <div className={styles.text}>
+          <div className="text">
             as a licensed minister can perform weddings for your special
             occasion. Quinceaneras, per request as well. Special wedding service
             with Knight and medieval clergy available
@@ -65,7 +65,7 @@ export default function Gallery() {
           <i>Inquire now for wedding services, etc.</i>
         </div>
 
-        <div className={styles.buttonContainer}>
+        <div className="button-container">
           <Button label="Get in Contact" to="/contact" />
         </div>
       </div>

@@ -19,11 +19,11 @@
   color: #f8f5ee;
   font-family: "Playfair", serif;
   font-size: 30px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .link:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #a49368;
   color: white;
   border-radius: 5px;
- 
 }
