@@ -9,19 +9,20 @@ export default function Mission() {
   return (
     <>
       <div className={styles.layout}>
-        <div className={styles.headline}>
-          <Header title="Called to be fishers of men. &mdash;MAT 4:19" />
-        </div>
+        <Header title="Called to be fishers of men. &mdash;MAT 4:19" />
 
         <div className={`text-bubble ${styles.missionCluster}`}>
           <div className={styles.imageContainer}>
             <ImageCard src={mission} alt="Large Image" size="large" />
           </div>
+
           <div className={styles.headline}>
             <h2>Mission Statement</h2>
           </div>
-          Through Future impact, Training and preaching for the youth of
-          tomorrow and their impact in the world
+          <div className={styles.text}>
+            Through Future impact, Training and preaching for the youth of
+            tomorrow and their impact in the world
+          </div>
         </div>
         <div className={styles.buttonContainer}>
           <Button label="View Outreach" to="/gallery" />

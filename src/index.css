@@ -1,12 +1,13 @@
 body {
   font-family: "Lato", sans-serif;
-  background-image: url("/assets/new_background.jpg");
+  /* background-image: url("/assets/new_background.jpg"); */
   background-size: cover;
   background-attachment: fixed;
   color: black;
   margin: 0px;
   height: 100vh;
   font-size: 30px;
+  overflow-x: hidden;
 }
 
 
@@ -31,7 +32,7 @@ h2 {
 }
 
 .routes-container {
-  padding-top: 110px;
+  padding-top: 90px;
   margin: 0p;
   height: 100vh;
   flex: 1;

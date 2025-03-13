@@ -21,8 +21,11 @@ export default function Gallery() {
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Puppet Mania</h2>
-          puppet ministry Thru training and presentation of plays and dramas, we
-          created a deeper relationship with our church, community, and Christ.
+          <div className={styles.text}>
+            puppet ministry Thru training and presentation of plays and dramas,
+            we created a deeper relationship with our church, community, and
+            Christ.
+          </div>
           <div className={styles.imageContainer}>
             <ImageCard src={pic1} alt="Small Image" size="small" />
             <ImageCard src={pic2} alt="Small Image" size="small" />
@@ -31,12 +34,14 @@ export default function Gallery() {
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Future Impact</h2>
-          as a program started in early 2000s with the goal of reaching youth
-          for the ministry, thru training at a younger age, can strengthen
-          knowledge of Christ, and bring a better understanding of walking with
-          faith, achieving that goal, as the youth grow older, they can take the
-          role of older Christians, and continue the legacy of Christ.and build
-          stronger bonds to their christanity
+          <div className={styles.text}>
+            as a program started in early 2000s with the goal of reaching youth
+            for the ministry, thru training at a younger age, can strengthen
+            knowledge of Christ, and bring a better understanding of walking
+            with faith, achieving that goal, as the youth grow older, they can
+            take the role of older Christians, and continue the legacy of
+            Christ.and build stronger bonds to their christanity
+          </div>
           <div className={styles.imageContainer}>
             <ImageCard src={pic3} alt="Small Image" size="small" />
             <ImageCard src={pic4} alt="Small Image" size="small" />
@@ -45,9 +50,11 @@ export default function Gallery() {
 
         <div className={`text-bubble ${styles.galleryCluster}`}>
           <h2>Matrimony</h2>
-          as a licensed minister can perform weddings for your special occasion.
-          Quinceaneras, per request as well. Special wedding service with Knight
-          and medieval clergy available
+          <div className={styles.text}>
+            as a licensed minister can perform weddings for your special
+            occasion. Quinceaneras, per request as well. Special wedding service
+            with Knight and medieval clergy available
+          </div>
           <div className={styles.imageContainer}>
             <ImageCard src={pic5} alt="Small Image" size="small" />
             <ImageCard src={pic6} alt="Small Image" size="small" />

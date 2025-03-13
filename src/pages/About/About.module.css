@@ -14,3 +14,16 @@
   display: flex;
   justify-content: center;
 }
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}

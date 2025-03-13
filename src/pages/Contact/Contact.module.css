@@ -1,33 +1,34 @@
-.verse{
-    color: black;
-    display: flex;
-    justify-content: center;
+.text {
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
-.contactInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.layout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
-.contactCluster{
-    display: flex;
-    justify-content: center;
+.contactCluster {
+  display: flex;
+  justify-content: center;
 }
 
-.imageContainer{
-    display: flex;
-    justify-content: center;
+.imageContainer {
+  display: flex;
+  justify-content: center;
 }
 
-.formContainer{
-    display: flex;
-    justify-content: center;
+.formContainer {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }

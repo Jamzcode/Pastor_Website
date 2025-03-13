@@ -8,7 +8,6 @@
 
   border-radius: 15px;
   background-color: #f8f5ee;
-  font-size: 30px;
 }
 
 .inputFormat {
@@ -19,4 +18,18 @@
 .btnContainer {
   display: flex;
   justify-content: center;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.messageBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
 }

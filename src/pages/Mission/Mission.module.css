@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .headline{
@@ -24,4 +25,10 @@
 .missionCluster{
     display: flex;
     justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }

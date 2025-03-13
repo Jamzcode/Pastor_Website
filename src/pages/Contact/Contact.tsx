@@ -15,7 +15,7 @@ export default function Contact() {
           <div className={styles.imageContainer}>
             <ImageCard src={headshot} alt="Large Image" size="large" />
           </div>
-          <div className={styles.verse}>
+          <div className={styles.text}>
             <i>
               <b>
                 Have I not commanded you? Be strong and courageous. Do not be
