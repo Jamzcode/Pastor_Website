@@ -3,3 +3,9 @@
   color: rgba(50, 50, 50);
   padding: 10px;
 }
+
+@media (max-width: 767px){
+  .header{
+    font-size: 25px;
+  }
+}

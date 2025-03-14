@@ -13,6 +13,7 @@ export default function Home() {
 
         <div className={`text-bubble ${styles.heroCluster}`}>
           {/* <ImageCard src={headshot} alt="Large Image" size="large" /> */}
+          <img src="https://placehold.co/330" alt="" />
           <div className="text">
             For 45 years, I have lived my life through Christ. I no longer live
             for myself but solely for the glory and honor of my God. Every step

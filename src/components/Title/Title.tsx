@@ -10,7 +10,7 @@ export default function Title() {
 
   useEffect(() => {
     const titles: { [key: string]: string } = {
-      "/": "Pastor John Ximenez, Sr.",
+      "/": "Rev. John Ximenez, Sr.",
       "/about": "About Me",
       "/contact": "Contact Me",
       "/mission": "Mission",

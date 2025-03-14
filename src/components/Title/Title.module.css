@@ -12,3 +12,10 @@
   font-family: "Playfair", serif;
   color: #4a3f35;
 }
+
+@media (max-width: 767px){
+  .headline{
+    font-size: 35px;
+  }
+}
+

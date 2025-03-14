@@ -14,6 +14,7 @@ export default function About() {
         <div className="text-bubble">
           <div className={styles.imageContainer}>
             {/* <ImageCard src={preaching} alt="Large Image" size="large" /> */}
+            <img src="https://placehold.co/330" alt="" />
           </div>
 
           <div className={styles.headline}>

@@ -13,6 +13,8 @@ export default function Contact() {
 
         <div className={`text-bubble ${styles.contactCluster}`}>
           <div className={styles.imageContainer}>
+          <img src="https://placehold.co/330" alt="" />
+          
             {/* <ImageCard src={headshot} alt="Large Image" size="large" /> */}
           </div>
           <div className="text">

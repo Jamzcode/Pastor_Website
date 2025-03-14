@@ -14,6 +14,7 @@ export default function Mission() {
         <div className={`text-bubble ${styles.missionCluster}`}>
           <div className={styles.imageContainer}>
             {/* <ImageCard src={mission} alt="Large Image" size="large" /> */}
+            <img src="https://placehold.co/330" alt="" />
           </div>
 
           <div className={styles.headline}>

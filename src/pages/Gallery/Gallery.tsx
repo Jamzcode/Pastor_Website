@@ -27,6 +27,8 @@ export default function Gallery() {
             Christ.
           </div>
           <div className={styles.imageContainer}>
+            <img src="https://placehold.co/150" alt="" />
+            <img src="https://placehold.co/150" alt="" />
             {/* <ImageCard src={pic1} alt="Small Image" size="small" />
             <ImageCard src={pic2} alt="Small Image" size="small" /> */}
           </div>
@@ -43,6 +45,8 @@ export default function Gallery() {
             Christ.and build stronger bonds to their christanity
           </div>
           <div className={styles.imageContainer}>
+          <img src="https://placehold.co/150" alt="" />
+          <img src="https://placehold.co/150" alt="" />
             {/* <ImageCard src={pic3} alt="Small Image" size="small" />
             <ImageCard src={pic4} alt="Small Image" size="small" /> */}
           </div>
@@ -56,6 +60,8 @@ export default function Gallery() {
             with Knight and medieval clergy available
           </div>
           <div className={styles.imageContainer}>
+          <img src="https://placehold.co/150" alt="" />
+          <img src="https://placehold.co/150" alt="" />
             {/* <ImageCard src={pic5} alt="Small Image" size="small" />
             <ImageCard src={pic6} alt="Small Image" size="small" /> */}
           </div>
