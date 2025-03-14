@@ -1,6 +1,6 @@
-import ImageCard from "../../components/ImageCard/ImageCard";
+// import ImageCard from "../../components/ImageCard/ImageCard";
 import Header from "../../components/Header/Header";
-import headshot from "../../assets/home-headshot.jpg";
+// import headshot from "../../assets/home-headshot.jpg";
 import Form from "../../components/Form/Form";
 
 import styles from "./Contact.module.css";
@@ -13,7 +13,7 @@ export default function Contact() {
 
         <div className={`text-bubble ${styles.contactCluster}`}>
           <div className={styles.imageContainer}>
-            <ImageCard src={headshot} alt="Large Image" size="large" />
+            {/* <ImageCard src={headshot} alt="Large Image" size="large" /> */}
           </div>
           <div className="text">
             <i>

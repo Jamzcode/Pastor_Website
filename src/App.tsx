@@ -14,17 +14,10 @@ import Title from "./components/Title/Title.tsx";
 import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
-  // TODO: create text component for stylized text (e.g. italicized, font, etc.).
-  // TODO: make ImageCard dynamic for pictures throughout the website.
-  // TODO: make a dynamic/interactive GalleryComponent.
-  // TODO: create input form component for user data.
-  // TODO: make application MOBILE RESPONSIVE.
-
   return (
     <>
-      {/* Website Title Component */}
-      <div className="appContainer">
-        <div className="topBar">
+      <div className="app-container">
+        <div className="top-bar">
           <Title />
           <NavigationBar />
         </div>

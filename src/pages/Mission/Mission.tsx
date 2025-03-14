@@ -1,7 +1,7 @@
-import ImageCard from "../../components/ImageCard/ImageCard";
+// import ImageCard from "../../components/ImageCard/ImageCard";
 import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
-import mission from "../../assets/mission.jpg";
+// import mission from "../../assets/mission.jpg";
 
 import styles from "./Mission.module.css";
 
@@ -13,7 +13,7 @@ export default function Mission() {
 
         <div className={`text-bubble ${styles.missionCluster}`}>
           <div className={styles.imageContainer}>
-            <ImageCard src={mission} alt="Large Image" size="large" />
+            {/* <ImageCard src={mission} alt="Large Image" size="large" /> */}
           </div>
 
           <div className={styles.headline}>

@@ -1,9 +1,9 @@
 import styles from "./About.module.css";
-import ImageCard from "../../components/ImageCard/ImageCard";
+// import ImageCard from "../../components/ImageCard/ImageCard";
 import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
 
-import preaching from "../../assets/about-preaching.jpg";
+// import preaching from "../../assets/about-preaching.jpg";
 
 export default function About() {
   return (
@@ -11,9 +11,9 @@ export default function About() {
       <div className="page-layout">
         <Header title="Pastor John Ximenez, Sr." />
 
-        <div className={`text-bubble ${styles.bioCluster}`}>
+        <div className="text-bubble">
           <div className={styles.imageContainer}>
-            <ImageCard src={preaching} alt="Large Image" size="large" />
+            {/* <ImageCard src={preaching} alt="Large Image" size="large" /> */}
           </div>
 
           <div className={styles.headline}>
