@@ -13,13 +13,15 @@ export default function ImageCard({ src, alt, size }: ImageCardProps) {
   const { width, height } = sizes[size];
 
   return (
-    <img
-      className={styles.picture}
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
-      style={{ objectFit: "cover" }}
-    />
+    <div className={`${styles.imageContainer} ${styles[size]}`}>
+      <img
+        className={styles.picture}
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        // style={{ objectFit: "cover" }}
+      />
+    </div>
   );
 }
