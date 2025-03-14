@@ -1,19 +1,16 @@
 import Button from "../../components/Button/Button";
-// import ImageCard from "../../components/ImageCard/ImageCard";
+import ImageCard from "../../components/ImageCard/ImageCard";
 import Header from "../../components/Header/Header";
 import styles from "./Gallery.module.css";
 
-// import pic1 from "../../assets/gallery-puppet1.jpg";
-// import pic2 from "../../assets/gallery-puppet2.jpg";
-// import pic3 from "../../assets/gallery-FI1.jpg";
-// import pic4 from "../../assets/gallery-FI2.jpg";
-// import pic5 from "../../assets/pexels-megapixelstock-17834.jpg";
-// import pic6 from "../../assets/pexels-pixabay-265856.jpg";
+import pic1 from "../../assets/gallery-puppet1.jpg";
+import pic2 from "../../assets/gallery-puppet2.jpg";
+import pic3 from "../../assets/gallery-FI1.jpg";
+import pic4 from "../../assets/gallery-FI2.jpg";
+import pic5 from "../../assets/pexels-megapixelstock-17834.jpg";
+import pic6 from "../../assets/pexels-pixabay-265856.jpg";
 
 export default function Gallery() {
-  // TODO: clicking on image will enlarge the image.
-  // TODO: link button to connect to contact page.
-
   return (
     <>
       <div className={`page-layout ${styles.layout}`}>
@@ -27,10 +24,8 @@ export default function Gallery() {
             Christ.
           </div>
           <div className={styles.imageContainer}>
-            <img src="https://placehold.co/150" alt="" />
-            <img src="https://placehold.co/150" alt="" />
-            {/* <ImageCard src={pic1} alt="Small Image" size="small" />
-            <ImageCard src={pic2} alt="Small Image" size="small" /> */}
+            <ImageCard src={pic1} alt="Small Image" size="small" />
+            <ImageCard src={pic2} alt="Small Image" size="small" />
           </div>
         </div>
 
@@ -45,10 +40,8 @@ export default function Gallery() {
             Christ.and build stronger bonds to their christanity
           </div>
           <div className={styles.imageContainer}>
-          <img src="https://placehold.co/150" alt="" />
-          <img src="https://placehold.co/150" alt="" />
-            {/* <ImageCard src={pic3} alt="Small Image" size="small" />
-            <ImageCard src={pic4} alt="Small Image" size="small" /> */}
+            <ImageCard src={pic3} alt="Small Image" size="small" />
+            <ImageCard src={pic4} alt="Small Image" size="small" />
           </div>
         </div>
 
@@ -60,10 +53,8 @@ export default function Gallery() {
             with Knight and medieval clergy available
           </div>
           <div className={styles.imageContainer}>
-          <img src="https://placehold.co/150" alt="" />
-          <img src="https://placehold.co/150" alt="" />
-            {/* <ImageCard src={pic5} alt="Small Image" size="small" />
-            <ImageCard src={pic6} alt="Small Image" size="small" /> */}
+            <ImageCard src={pic5} alt="Small Image" size="small" />
+            <ImageCard src={pic6} alt="Small Image" size="small" />
           </div>
         </div>
 
